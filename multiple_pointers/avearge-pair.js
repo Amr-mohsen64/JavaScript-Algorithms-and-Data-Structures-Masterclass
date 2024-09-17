@@ -1,3 +1,4 @@
+// write a function that returns true if there is a pair of values in the array where the values add up to the average of the entire array. Otherwise, return false.
 function averagePair(arr, avg) {
   if (!arr.length) return false;
   let left = 0;
